@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+       
+   header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  animation-name: header;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes header {
+  0% {
+    background-color: red;
+  }
+  33.33% {
+    background-color: blue;
+  }
+  66.66% {
+    background-color: green;
+  }
+  100%{
+  background-color: pink;
+}
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      #profile-image {
+        border-radius: 40%;
+        width: 200px;
+        height: 200px;
+        margin: 80px auto;
+        display: block;
+      }
+
+      #about {
+        background-color: #fff;
+        padding: 50px;
+        margin-bottom: 50px;
+        text-align: justify;
+        line-height: 1.5;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      }
+
+      #about h2 {
+        margin-top: 0;
+      }
+
+      #contact {
+        background-color: #333;
+        color: #fff;
+        padding: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      }
+
+      #contact h2 {
+        margin-top: 0;
+      }
+
+      #skills {
+        background-color: #fff;
+        padding: 50px;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      }
+
+      #skills h2 {
+        margin-top: 0;
+      }
+
+      #education {
+        background-color: #333;
+        color: #fff;
+        padding: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      }
+
+      #education h2 {
+        margin-top: 0;
+      }
+
+      #experience {
+        background-color: #fff;
+        padding: 50px;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      }
+
+      #experience h2 {
+        margin-top: 0;
+      }
+
+      .skill {
+        display: inline-block;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        margin: 10px;
+        border-radius: 5px;
+		animation: pulse 1s infinite;
+      }
+	    @keyframes pulse {
+        0% {
+        transform: scale(1);
+        }
+        50% {
+        transform: scale(1.1);
+        }
+        100% {
+        transform: scale(1);
+        }
+        }
+
+      .experience {
+        margin-bottom: 50px;
+      }
+
+      .experience h3 {
+        margin-top: 0;
+      }
+
+      .experience p {
+        margin-bottom: 0;
+      }
+	  .watery-text {
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  animation: watery 2s ease-in-out infinite;
+}
+
+@keyframes watery {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="watery-text">Ernest A Alcala</h1>
+      <h2>Web Developer</h2>
+    </header>
+    <img src="https://scontent-hkt1-1.xx.fbcdn.net/v/t1.15752-9/334977656_904897060630508_1748550817276238002_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=bWZNv5xj3NcAX9OueYH&_nc_ht=scontent-hkt1-1.xx&oh=03_AdQplw9soyvzmmfRq_f82tpNy871rvA7WWr6pRdfpnDejw&oe=64313AD3" alt="Profile Image" id="profile-image">
+    <div id="about">
+      <h2>About Me</h2>
+      <p>I'm a web developer with over 5 years of experience in creating engaging and user-friendly websites. I have a strong understanding of web technologies and a passion for creating innovative and visually appealing websites. 
+	  I'm highly skilled in HTML, CSS, JavaScript, and various content management systems. When I'm not working, you can find me playing billiards or playing online games.</p>
+</div>
+<div id="contact">
+<h2>Contact Me</h2>
+<p>Email: edgyalcala123@gmail.com</p>
+<p>Phone: (555) 555-5555</p>
+<p>Facebook: <a href="https://www.facebook.com/edgy.alcala?mibextid=LQQJ4d">https:https://www.facebook.com/edgy.alcala?mibextid=LQQJ4d</a></p>
+</div>
+<div id="skills">
+<h2>Skill Set</h2>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Python</div>
+<div class="skill">C++</div>
+</div>
+<div id="education">
+<h2>Education Background</h2>
+<p>Bachelor's Degree in Information Technnology, University of St.La Salle, 2014</p>
+</div>
+<div id="experience">
+<h2>Work Experiences</h2>
+<div class="experience">
+<h3>Web Developer, Infosys, 2017-Present</h3>
+<p>Develop and maintain websites for various clients using HTML, CSS, JavaScript, and WordPress. Collaborate with designers to create visually appealing and user-friendly websites. Communicate with clients to understand their needs and provide solutions to their problems.</p>
+</div>
+<div class="experience">
+<h3>IT Support Specialist, Accenture, 2015-2017 </h3>
+<p>Assisted senior IT staff in troubleshooting hardware and software issues.
+Managed inventory of IT equipment, including laptops, desktops, and mobile devices.</p>
+</div>
+</div>
+
+  </body>
+</html>
